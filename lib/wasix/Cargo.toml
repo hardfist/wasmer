@@ -209,7 +209,7 @@ sys = [
 	# "virtual-mio/sys",
 	# "logging",
 	# "host-fs",
-	# "journal",
+	"journal",
 	# "sys-poll",
 	# "sys-thread",
 	# "host-vnet",
