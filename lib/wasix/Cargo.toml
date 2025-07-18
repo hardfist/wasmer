@@ -218,9 +218,9 @@ sys = [
 	"host-threads",
 	"host-reqwest",
 	"ctrlc",
-	"wasmer/wat",
-	"wasmer/js-serializable-module",
+	"base"
 ]
+base = ["wasmer/wat","wasmer/js-serializable-module"]
 sys-default = ["sys", "wasmer/sys"]
 sys-poll = []
 extra-logging = []
@@ -240,8 +240,7 @@ js = [
 	"web-sys",
 	"wasmer/js-default",
 	"wasmer/wasm-types-polyfill",
-	"wasmer/wat",
-	"wasmer/js-serializable-module",
+	"base"
 ]
 js-default = ["js"]
 test-js = ["js", "wasmer/wat"]
